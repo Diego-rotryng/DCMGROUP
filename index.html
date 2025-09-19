@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>DCM Group — Escuchá ahora</title>
+  <meta name="description" content="DCM Group: música que vibra. Escuchá ahora en Spotify."/>
+  <style>
+    :root{--bg:#000;--fg:#fff;--muted:#bfbfbf;--brand:#12B886;--brand-2:#0E9C71;--glass:rgba(255,255,255,0.08);--ring:rgba(255,255,255,0.15);--radius:16px}
+    *{box-sizing:border-box}html,body{height:100%}body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}a{color:var(--brand);text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:0 16px}.nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+    .pill{padding:10px 14px;border-radius:999px;background:var(--glass);border:1px solid var(--ring);color:#fff;margin-left:8px;display:inline-block}.pill:hover{background:rgba(255,255,255,0.16)}
+    header.hero{position:relative;overflow:hidden;padding:24px 0 48px 0;background:radial-gradient(circle at 75% -10%,rgba(18,184,134,0.35),transparent 35%),radial-gradient(circle at 20% 0%,rgba(18,184,134,0.25),transparent 45%)}
+    .hero-grid{display:grid;gap:24px}@media(min-width:860px){.hero-grid{grid-template-columns:1.1fr 1fr}}h1{font-size:clamp(32px,6vw,56px);line-height:1.05;margin:0}h1 .accent{color:var(--brand)}
+    .lead{margin-top:12px;color:#ddd;font-size:clamp(16px,2.6vw,20px)}.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:18px}
+    .btn{display:inline-flex;gap:10px;align-items:center;padding:12px 16px;border-radius:14px;font-weight:700;border:1px solid var(--ring);background:var(--glass);color:#fff}
+    .btn:hover{background:rgba(255,255,255,0.16)}.btn-primary{background:var(--brand);color:#000;border-color:var(--brand-2)}.btn-primary:hover{background:#15c192}
+    .btn-yt{background:#fff;color:#000;border-color:#fff}.btn-tt{background:#000;color:#fff;border-color:#333}
+    .card{background:var(--glass);border:1px solid var(--ring);border-radius:var(--radius);padding:12px}iframe{border:0;width:100%}
+    section{padding:48px 0}h2{font-size:clamp(24px,4.5vw,36px);margin:0 0 10px 0}.muted{color:var(--muted)}.grid-2{display:grid;gap:24px}
+    @media(min-width:860px){.grid-2{grid-template-columns:1fr 1fr}}footer{border-top:1px solid var(--ring);padding:24px 0;color:#bbb}
+    .sticky-cta{position:fixed;left:0;right:0;bottom:14px;z-index:9999;padding:0 12px}.sticky-cta .wrap{max-width:720px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:10px;background:rgba(0,0,0,0.55);border:1px solid var(--ring);border-radius:14px;padding:10px 12px;backdrop-filter:blur(10px)}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+    .skip:focus{position:fixed;top:10px;left:10px;z-index:99999;background:#fff;color:#000;padding:10px 14px;border-radius:8px}.chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{padding:8px 12px;border-radius:999px;border:1px solid var(--ring);background:var(--glass);font-size:14px}
+  </style>
+</head>
+<body>
+  <a href="#escuchar" class="sr-only skip">Saltar al reproductor</a>
+
+  <div class="sticky-cta">
+    <div class="wrap"><span style="font-size:14px;">🎧 Dale play a <strong>DCM Group</strong></span>
+      <a class="btn btn-primary" target="_blank" rel="noopener" href="https://open.spotify.com/artist/7K5RNC9u0mrLrnhvWidMSf">Escuchar en Spotify</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="container nav"><div style="display:flex;align-items:center;gap:10px;">
+        <div style="height:40px;width:40px;border-radius:12px;background:var(--brand);display:flex;align-items:center;justify-content:center;color:#000;font-weight:800">🎵</div><strong>DCM Group</strong></div>
+      <div><a class="pill" href="#escuchar">Escuchar</a><a class="pill" href="#sobre">Sobre</a><a class="pill" href="#fans">Fans</a><a class="pill" href="#contacto">Contacto</a></div></div>
+    <div class="container hero-grid" style="padding-top:10px;">
+      <div><h1>DCM Group <span class="accent">Música que vibra.</span></h1>
+        <p class="lead">Dale play y seguinos. Esta es la base oficial para escuchar DCM Group y entrar en nuestro universo.</p>
+        <div class="row"><a class="btn btn-primary" target="_blank" rel="noopener" href="https://open.spotify.com/artist/7K5RNC9u0mrLrnhvWidMSf">Escuchar en Spotify</a><a class="btn" href="#escuchar">Ver reproductor</a></div>
+        <p class="muted" style="margin-top:8px;font-size:14px">Tip: añadí esta página a tus favoritos para volver rápido 😉</p>
+        <div class="chips" style="margin-top:10px"><a class="chip" target="_blank" rel="noopener" href="https://open.spotify.com/artist/7K5RNC9u0mrLrnhvWidMSf/discography/all">Ver TODOS los temas en Spotify ↗</a><a class="chip" target="_blank" rel="noopener" href="https://open.spotify.com/artist/7K5RNC9u0mrLrnhvWidMSf/discography/single">Singles</a><a class="chip" target="_blank" rel="noopener" href="https://open.spotify.com/artist/7K5RNC9u0mrLrnhvWidMSf/discography/album">Álbumes</a></div></div>
+      <div class="card"><iframe id="player1" height="420" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify — DCM Group" src="https://open.spotify.com/embed/artist/7K5RNC9u0mrLrnhvWidMSf"></iframe></div>
+    </div>
+  </header>
+
+  <main id="escuchar">
+    <section class="container"><h2>Escuchá ahora</h2><p class="muted">Elegí tu plataforma favorita.</p>
+      <div class="row" style="margin-top:14px;"><a class="btn btn-primary" target="_blank" rel="noopener" href="https://open.spotify.com/artist/7K5RNC9u0mrLrnhvWidMSf">Spotify</a><a class="btn btn-yt" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCZ33ZkMmgIEL0MmMeyTUwBg">YouTube</a><a class="btn btn-tt" target="_blank" rel="noopener" href="https://www.tiktok.com/@dcm.group.music">TikTok</a></div>
+    </section>
+
+    <section id="sobre" style="background:rgba(255,255,255,0.06);border-top:1px solid var(--ring);border-bottom:1px solid var(--ring)">
+      <div class="container grid-2"><div><h2>Sobre DCM Group</h2><p class="muted">Proyecto musical que fusiona pulsos actuales con melodías memorables. Cada track es un capítulo: energía, emoción y una búsqueda constante de conexión.</p></div>
+        <div class="card" id="fans"><h3 style="margin:0 0 6px 0">Hacete fan</h3><p class="muted" style="margin:0 0 10px 0;font-size:14px">Pronto más experiencias exclusivas para fans 😉</p></div></div>
+    </section>
+
+    <section id="contacto" class="container grid-2"><div><h2>Contacto & Bookings</h2><p class="muted">Para prensa, colaboraciones o fechas, escribinos. Respondemos lo antes posible.</p><div class="row"><a class="btn" href="mailto:dcmgroupmusic@gmail.com">Email</a></div></div>
+      <div class="card"><h3 style="margin:0 0 6px 0">Formulario de contacto</h3>
+        <form action="https://formsubmit.co/dcmgroupmusic@gmail.com" method="POST" style="display:grid;gap:10px"><input type="hidden" name="_captcha" value="false"/><input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off"/><input type="hidden" name="_subject" value="Contacto desde landing — DCM Group"/><input id="nombre" name="nombre" type="text" required placeholder="Tu nombre" style="width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--ring);background:#0f0f0f;color:#fff"/><input id="email" name="email" type="email" required placeholder="tu@email.com" style="width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--ring);background:#0f0f0f;color:#fff"/><textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos..." style="width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--ring);background:#0f0f0f;color:#fff"></textarea><button class="btn btn-primary" type="submit">Enviar</button><p class="muted" style="font-size:12px">Se envía a <em>dcmgroupmusic@gmail.com</em>.</p></form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container" style="display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap"><div>© <span id="y"></span> DCM Group. Todos los derechos reservados.</div><div style="display:flex;gap:10px;font-size:14px"><a href="https://open.spotify.com/artist/7K5RNC9u0mrLrnhvWidMSf" target="_blank" rel="noopener">Spotify</a><span style="opacity:.3">•</span><a href="https://www.youtube.com/channel/UCZ33ZkMmgIEL0MmMeyTUwBg" target="_blank" rel="noopener">YouTube</a><span style="opacity:.3">•</span><a href="https://www.tiktok.com/@dcm.group.music" target="_blank" rel="noopener">TikTok</a><span style="opacity:.3">•</span><a href="#contacto">Contacto</a></div></div></footer>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
